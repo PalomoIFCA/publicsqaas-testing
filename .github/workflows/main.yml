@@ -9,4 +9,4 @@ jobs:
     name: Job that triggers SQAaaS platform branch
     steps:
       - name: SQAaaS action step
-        uses: eosc-synergy/sqaaas-assessment-action
+        uses: eosc-synergy/sqaaas-assessment-action@main
