@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     name: Job that triggers SQAaaS platform branch
     steps:
-      - name: SQAaaS action step
+      - name: SQAaaS action evaluator
         uses: eosc-synergy/sqaaas-assessment-action@main
