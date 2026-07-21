@@ -8,5 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Job that triggers SQAaaS platform branch
     steps:
-      - name: SQAaaS action evaluator
-        uses: eosc-synergy/sqaaas-assessment-action@main
+      - name: SQAaaS action step
+        uses: eosc-synergy/sqaaas-assessment-action@feature_private_action
+        with: 
+           criteria_workflow_only: 'True'
+           credentials_id: "credentials_id": {"user_id": "PalomoIFCA","token": "ghp_1brt",}
