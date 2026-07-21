@@ -12,4 +12,4 @@ jobs:
         uses: eosc-synergy/sqaaas-assessment-action@feature_private_action
         with: 
            criteria_workflow_only: 'True'
-           credentials_id: {"credentials_id": {"user_id": "PalomoIFCA","token": "ghp_1brt",}}
+           credentials_id: '{"credentials_id": {"user_id": "PalomoIFCA","token": "ghp_1brt",}}'
